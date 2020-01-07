@@ -1,0 +1,34 @@
+{
+  "name": "eforepl",
+  "version": "1.0.0",
+  "description": "Emil FOlino REsearch PLatform (and Read–eval–print loop)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "css-minify -f style.css && webpack -d",
+    "watch": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilfolino/eforepl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilfolino/eforepl/issues"
+  },
+  "homepage": "https://github.com/emilfolino/eforepl#readme",
+  "devDependencies": {
+    "css-loader": "^3.4.1",
+    "css-minify": "^1.0.1",
+    "file-loader": "^5.0.2",
+    "monaco-editor-webpack-plugin": "^1.8.2",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.19.2"
+  }
+}
