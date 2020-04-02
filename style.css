@@ -44,10 +44,11 @@ html {
 }
 
 .hud {
-    
+
 }
 
 .output {
     background-color: black;
     color: green;
+    padding: 1rem;
 }
